@@ -10,7 +10,8 @@ This archetype would help in setting up project structure for vertx module.
 
 # Creating a project using the Archetype
 
-  `mvn archetype:generate  -DarchetypeRepository=file:///tmp/mvn-repo/ -DarchetypeGroupId=org.vertx.build  -DarchetypeArtifactId=maven-archetype-vertx -DarchetypeVersion=2.0`
+  `mvn archetype:generate  -DarchetypeRepository=file:///tmp/mvn-repo/ \
+   -DarchetypeGroupId=org.vertx.build  -DarchetypeArtifactId=maven-archetype-vertx -DarchetypeVersion=2.0`
 
 # To dos.
 
