@@ -16,6 +16,7 @@ This archetype would help in setting up project structure for vertx module.
 # To dos.
 
  * Get the created project to compile! :)
+ * POM to contain all required deps.
  * Replace all com.mycompany stuff to proper groupId / package name.
  * See if lang parameter can be added, so that we can generate only language specific files.
 
