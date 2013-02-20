@@ -9,7 +9,6 @@
 
   <name>maven-archetype-vertx</name>
   <properties>
-    <!--maven variable which points to your local repository -->
     <internal.repo.path>file:///tmp/mvn-repo/</internal.repo.path>
   </properties>
   <distributionManagement>
