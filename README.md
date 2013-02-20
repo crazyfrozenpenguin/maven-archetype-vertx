@@ -7,7 +7,7 @@ Maven Archetype for Vertx
 
   `mvn clean deploy`
 
-# Building a project using the Archetype
+# Creating a project using the Archetype
 
   `mvn archetype:generate  -DarchetypeRepository=file:///tmp/mvn-repo/ -DarchetypeGroupId=org.vertx.build  -DarchetypeArtifactId=maven-archetype-vertx -DarchetypeVersion=2.0`
 
