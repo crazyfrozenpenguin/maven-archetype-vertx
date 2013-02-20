@@ -14,6 +14,6 @@ Maven Archetype for Vertx
 # To dos.
 
  * Get the created project to compile!
- * Replace all com.mycompany stuff to proper groupId.
+ * Replace all com.mycompany stuff to proper groupId / package name.
  * See if lang parameter can be added, so that we can generate only language specific files.
 
