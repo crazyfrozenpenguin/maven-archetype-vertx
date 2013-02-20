@@ -1,7 +1,8 @@
-maven-archetype-vertx
-=====================
+Maven Archetype for Vertx 
+=========================
 
-Maven Archetype for Vertx
+This archetype would help in setting up project structure for vertx module.
+
 
 # Building the Archetype
 
@@ -13,7 +14,7 @@ Maven Archetype for Vertx
 
 # To dos.
 
- * Get the created project to compile!
+ * Get the created project to compile! :)
  * Replace all com.mycompany stuff to proper groupId / package name.
  * See if lang parameter can be added, so that we can generate only language specific files.
 
