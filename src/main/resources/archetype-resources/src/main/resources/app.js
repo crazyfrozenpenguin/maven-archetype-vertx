@@ -1,5 +1,5 @@
 load("vertx.js")
 
-vertx.deployVerticle("com.mycompany.myproject.MyVerticle")
+vertx.deployVerticle("${package}.MyVerticle")
 
 console.log("Deploying myverticle")

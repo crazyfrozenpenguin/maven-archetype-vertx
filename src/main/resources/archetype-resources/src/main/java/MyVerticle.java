@@ -1,7 +1,4 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
-package com.mycompany.myproject;
+package ${package};
 /*
  * Copyright 2013 Red Hat, Inc.
  *

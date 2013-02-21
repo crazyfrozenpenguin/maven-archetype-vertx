@@ -1,7 +1,4 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
-package com.mycompany.myproject.test.integration.python;
+package ${package}.test.integration.python;
 /*
  * Copyright 2013 Red Hat, Inc.
  *

@@ -1,7 +1,4 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
-package com.mycompany.myproject.test.integration.javascript;
+package ${package}.test.integration.javascript;
 /*
  * Copyright 2013 Red Hat, Inc.
  *
