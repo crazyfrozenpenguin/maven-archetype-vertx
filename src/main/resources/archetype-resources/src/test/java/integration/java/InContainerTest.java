@@ -38,7 +38,7 @@ public class InContainerTest extends TestVerticle {
 
   @Test
   public void testDeployMod() {
-    container.deployModule("maven:com.mycompany:my-module:${version}-SNAPSHOT", new Handler<String>() {
+    container.deployModule("maven:${groupId}:${artifactId}:${version}-SNAPSHOT", new Handler<String>() {
       @Override
       public void handle(String deploymentID) {
         assertNotNull("deploymentID should not be null", deploymentID);
