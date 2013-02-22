@@ -13,6 +13,12 @@ This archetype would help in setting up project structure for vertx module.
     mvn archetype:generate  -DarchetypeRepository=file:///tmp/mvn-repo/ \
         -DarchetypeGroupId=org.vertx.build  -DarchetypeArtifactId=vertx-maven-archetype -DarchetypeVersion=2.0
 
+# A sample foo.bar project
+
+    mvn archetype:generate  -DarchetypeRepository=file:///tmp/mvn-repo/ -DarchetypeGroupId=org.vertx.build  \
+    -DarchetypeArtifactId=vertx-maven-archetype -DarchetypeVersion=2.0 \ 
+    -DgroupId=com.foo.bar -DartifactId=baz -Dversion=1.0 -Dlang=Java
+
 # To dos.
 
  * See if lang parameter can be added, so that we can generate only language specific files.
