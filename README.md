@@ -19,6 +19,10 @@ This archetype would help in setting up project structure for vertx module.
     -DarchetypeArtifactId=vertx-maven-archetype -DarchetypeVersion=2.0 \ 
     -DgroupId=com.foo.bar -DartifactId=baz -Dversion=1.0 -Dlang=Java
 
+    cd baz;
+    
+    mvn clean compile test
+
 # To dos.
 
  * See if lang parameter can be added, so that we can generate only language specific files.
