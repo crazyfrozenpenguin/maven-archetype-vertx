@@ -9,6 +9,12 @@
         <include>**/*.txt</include>
       </includes>
     </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/assembly</directory>
+      <includes>
+        <include>**/*</include>
+      </includes>
+    </fileSet>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/main/java</directory>
       <includes>
@@ -37,6 +43,7 @@
       <directory></directory>
       <includes>
         <include>README.md</include>
+        <include>build-and-run.sh</include>
       </includes>
     </fileSet>
   </fileSets>
