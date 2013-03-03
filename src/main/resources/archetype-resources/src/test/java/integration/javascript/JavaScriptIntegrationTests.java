@@ -1,4 +1,4 @@
-package ${package}.test.integration.javascript;
+package ${package}.integration.javascript;
 /*
  * Copyright 2013 Red Hat, Inc.
  *
@@ -19,7 +19,6 @@ package ${package}.test.integration.javascript;
 
 import org.vertx.testtools.ScriptClassRunner;
 import org.vertx.testtools.TestVerticleInfo;
-import org.vertx.testtools.VertxAssert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

@@ -1,4 +1,4 @@
-package ${package}.test.integration.groovy;
+package ${package}.integration.groovy;
 /*
  * Copyright 2013 Red Hat, Inc.
  *

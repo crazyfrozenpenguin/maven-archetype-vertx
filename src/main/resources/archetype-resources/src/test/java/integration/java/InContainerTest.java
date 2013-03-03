@@ -1,4 +1,4 @@
-package ${package}.test.integration.java;
+package ${package}.integration.java;
 /*
  * Copyright 2013 Red Hat, Inc.
  *
