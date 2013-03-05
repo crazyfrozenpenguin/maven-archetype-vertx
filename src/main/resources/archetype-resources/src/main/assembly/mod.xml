@@ -14,10 +14,8 @@
             <excludes>
                 <exclude>org.vert-x:vertx-core</exclude>
                 <exclude>org.vert-x:vertx-platform</exclude>
+				<exclude>${project.groupId}:${project.artifactId}:jar:${project.version}</exclude>
             </excludes>
-            <includes>
-            	<include>${project.groupId}:${project.artifactId}:${project.version}</include>
-            </includes>
         </dependencySet>
     </dependencySets>
 
