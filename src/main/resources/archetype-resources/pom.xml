@@ -9,13 +9,12 @@
   <url>http://maven.apache.org</url>
   <repositories>
     <repository>
-      <id>sonatypet</id>
+      <id>sonatype</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </repository>
   </repositories>
   <properties>
-    <module-directory>${groupId}.${artifactId}-v${version}</module-directory>
-    <mods-directory>maven:${groupId}:${artifactId}:${version}-SNAPSHOT</mods-directory>
+    <!--some property you want to add goes here.-->
   </properties>
   <build>
     <plugins>
@@ -40,7 +39,7 @@
               <goal>copy-resources</goal>
             </goals>
             <configuration>
-              <outputDirectory>${basedir}/mods/${mods-directory}</outputDirectory>
+              <outputDirectory>${basedir}/mods/maven:${groupId}:${artifactId}:${version}-SNAPSHOT</outputDirectory>
               <resources>          
                 <resource>
                   <directory>target/classes</directory>
@@ -50,6 +49,17 @@
             </configuration>            
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>2.5</version>
+        <configuration>
+          <filesets>
+            <fileset>
+              <directory>${basedir}/mods</directory>
+            </fileset>
+          </filesets>
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>

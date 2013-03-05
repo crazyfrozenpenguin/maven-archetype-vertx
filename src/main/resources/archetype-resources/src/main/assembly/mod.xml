@@ -8,10 +8,10 @@
         <format>zip</format>
     </formats>
 
-    <baseDirectory>mods</baseDirectory>
+    <baseDirectory></baseDirectory>
     <dependencySets>
         <dependencySet>
-            <outputDirectory>${module-directory}/lib</outputDirectory>
+            <outputDirectory>lib</outputDirectory>
             <excludes>
                 <exclude>org.vert-x:vertx-core</exclude>
                 <exclude>org.vert-x:vertx-platform</exclude>
@@ -22,21 +22,14 @@
     <fileSets>
         <fileSet>
             <!-- empty outputDirectory puts mod.json at the root of the structure -->
-            <outputDirectory>${module-directory}</outputDirectory>
+            <outputDirectory></outputDirectory>
             <directory>src/main/resources</directory>
-            <includes>
-                <include>mod.json</include>
-            </includes>
-        </fileSet>
-        <fileSet>
-            <outputDirectory>${module-directory}</outputDirectory>
-            <directory>src/test/resources</directory>
             <includes>
                 <include>**</include>
             </includes>
         </fileSet>
         <fileSet>
-            <outputDirectory>${module-directory}</outputDirectory>
+            <outputDirectory></outputDirectory>
             <directory>target/classes</directory>
             <includes>
                 <include>**</include>
