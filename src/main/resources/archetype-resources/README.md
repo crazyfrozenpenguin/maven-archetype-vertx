@@ -1,5 +1,5 @@
-# Vert.x Gradle Template
+# Vert.x Maven Template
 
-Template project for creating a Vert.x module with a Gradle build.
+Template project for creating a Vert.x module with a Maven build.
 
-Clone this and adapt it to easily develop Vert.x modules using Gradle as your build tool.
+Clone this and adapt it to easily develop Vert.x modules using Maven as your build tool.
