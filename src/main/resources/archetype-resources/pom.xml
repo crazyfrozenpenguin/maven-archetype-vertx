@@ -90,6 +90,15 @@
           </execution>
         </executions>
       </plugin>
+	<plugin>
+				<groupId>org.anacoders.plugins</groupId>
+				<artifactId>vertx-maven-plugin</artifactId>
+				<version>2.0.0.0-SNAPSHOT</version>
+				<configuration>
+					<vertxModulesDirectory>${basedir}/mods</vertxModulesDirectory>
+					<moduleName>maven:${project.groupId}:${project.artifactId}:${project.version}</moduleName>
+				</configuration>
+			</plugin>
     </plugins>
   </build>
   <dependencies>
