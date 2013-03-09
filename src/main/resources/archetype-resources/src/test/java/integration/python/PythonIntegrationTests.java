@@ -1,4 +1,4 @@
-package ${package}.integration.python;
+package  ${package}.integration.python;
 /*
  * Copyright 2013 Red Hat, Inc.
  *
@@ -17,10 +17,10 @@ package ${package}.integration.python;
  * @author <a href="http://tfox.org">Tim Fox</a>
  */
 
-import org.vertx.testtools.ScriptClassRunner;
-import org.vertx.testtools.TestVerticleInfo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.vertx.testtools.ScriptClassRunner;
+import org.vertx.testtools.TestVerticleInfo;
 
 /**
  * This is dummy JUnit test class which is used to run any Python test scripts as JUnit tests.
@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  *
  * Do need to edit this file unless you want it to look for tests elsewhere
  */
-@TestVerticleInfo(filenameFilter=".+${symbol_escape}${symbol_escape}.py", funcRegex="def[${symbol_escape}${symbol_escape}s]+(test[^${symbol_escape}${symbol_escape}s(]+)")
+@TestVerticleInfo(filenameFilter=".+\\.py", funcRegex="def[\\s]+(test[^\\s(]+)")
 @RunWith(ScriptClassRunner.class)
 public class PythonIntegrationTests {
   @Test

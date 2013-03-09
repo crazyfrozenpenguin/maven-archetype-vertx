@@ -1,4 +1,4 @@
-package ${package}.integration.javascript;
+package  ${package}.integration.javascript;
 /*
  * Copyright 2013 Red Hat, Inc.
  *
@@ -17,10 +17,10 @@ package ${package}.integration.javascript;
  * @author <a href="http://tfox.org">Tim Fox</a>
  */
 
-import org.vertx.testtools.ScriptClassRunner;
-import org.vertx.testtools.TestVerticleInfo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.vertx.testtools.ScriptClassRunner;
+import org.vertx.testtools.TestVerticleInfo;
 
 /**
  * This is dummy JUnit test class which is used to run any JavaScript test scripts as JUnit tests.
@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  *
  * Do need to edit this file unless you want it to look for tests elsewhere
  */
-@TestVerticleInfo(filenameFilter=".+${symbol_escape}${symbol_escape}.js", funcRegex="function[${symbol_escape}${symbol_escape}s]+(test[^${symbol_escape}${symbol_escape}s(]+)")
+@TestVerticleInfo(filenameFilter=".+\\.js", funcRegex="function[\\s]+(test[^\\s(]+)")
 @RunWith(ScriptClassRunner.class)
 public class JavaScriptIntegrationTests {
   @Test

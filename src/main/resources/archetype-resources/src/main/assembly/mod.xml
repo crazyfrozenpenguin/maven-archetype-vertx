@@ -7,14 +7,12 @@
         <format>zip</format>
     </formats>
 
-	<includeBaseDirectory>false</includeBaseDirectory>
+    <includeBaseDirectory>false</includeBaseDirectory>
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
             <excludes>
-                <exclude>org.vert-x:vertx-core</exclude>
-                <exclude>org.vert-x:vertx-platform</exclude>
-				<exclude>${project.groupId}:${project.artifactId}:jar:${project.version}</exclude>
+               <exclude>${project.groupId}:${project.artifactId}:jar:${project.version}</exclude>
             </excludes>
         </dependencySet>
     </dependencySets>
