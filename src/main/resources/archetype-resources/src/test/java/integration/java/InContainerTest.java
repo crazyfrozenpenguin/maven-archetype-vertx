@@ -38,7 +38,7 @@ public class InContainerTest extends TestVerticle {
 
   @Test
   public void testDeployMod() {
-    container.deployModule("${groupId}~${artifactId}~${version}", new Handler<String>() {
+    container.deployModule(System.getProperty("vertx.modulename"), new Handler<String>() {
       @Override
       public void handle(String deploymentID) {
         assertNotNull("deploymentID should not be null", deploymentID);
