@@ -11,8 +11,11 @@
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
+            <unpack>false</unpack>
             <excludes>
-               <exclude>${project.groupId}:${project.artifactId}:jar:${project.version}</exclude>
+              <exclude>${project.groupId}:${project.artifactId}:jar:${project.version}</exclude>
+              <exclude>io.vertx:*</exclude>
+              <exclude>junit:junit</exclude>
             </excludes>
         </dependencySet>
     </dependencySets>
